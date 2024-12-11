@@ -49,4 +49,5 @@ D('is-an.app', NewRegistrar('none'), DnsProvider(NewDnsProvider('cloudflare')), 
   CNAME('smp', 'yandao0313.github.io.'),
   CNAME('snapscript', 'cname.vercel-dns.com.'),
   CNAME('yt2mp3', 'cname.vercel-dns.com.'),
+  CNAME('runedb', 'runedb.eu.org.', CF_PROXY_ON),
 END)
